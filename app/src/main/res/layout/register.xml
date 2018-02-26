@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ede27a"
+    >
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:layout_centerInParent="true"
+        android:id="@+id/cpswd"
+        android:password="true"
+        android:hint="Confirm Password"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/cpswd"
+        android:password="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/pswd"
+        android:hint="Enter Password"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:layout_centerInParent="true"
+        android:id="@+id/vname"
+        android:layout_below="@+id/cpswd"
+        android:layout_marginTop="20dp"
+        android:hint="Name Of Vehicle"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/vname"
+        android:layout_marginTop="20dp"
+        android:id="@+id/vnumber"
+        android:hint="Enter the number of vehicle"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:layout_centerInParent="true"
+        android:id="@+id/user"
+        android:layout_above="@+id/pswd"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter Username"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:layout_centerInParent="true"
+        android:id="@+id/email"
+        android:layout_above="@+id/user"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter Email"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/register_button"
+        android:text="REGISTER"
+        android:background="@drawable/shape"
+        android:layout_below="@id/vnumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+
+</RelativeLayout>

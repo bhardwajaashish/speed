@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:background="#ede27a"
+    tools:context="com.example.anshul.speed.login">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/login_button"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/logo"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:textColor="#d94607"
+        android:id="@+id/login_button"
+        android:background="@drawable/shape"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:layout_centerInParent="true"
+        android:id="@+id/usr"
+        android:visibility="invisible"
+        android:hint="Email"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape"
+        android:layout_centerInParent="true"
+        android:id="@+id/password"
+        android:layout_below="@+id/usr"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:password="true"
+        android:hint="Password"
+        />
+
+
+
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="SIGN UP HERE"
+        android:id="@+id/signup_button"
+        android:textSize="25dp"
+        android:background="#ede27a"
+        android:textColor="#d94607"
+        />
+
+
+</RelativeLayout>
